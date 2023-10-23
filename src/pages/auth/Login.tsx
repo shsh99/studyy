@@ -14,7 +14,7 @@ function Login() {
                 <div className="col-lg-6">
                   <div className="p-5">
                     <div className="text-center">
-                      <h1 className="h4 mb-4">Welcome Back!</h1>
+                      <h1 className="h4 mb-4">Welcome!</h1>
                     </div>
                     <form className="user">
                       <div className="form-group">
@@ -46,20 +46,19 @@ function Login() {
                         href="/"
                         className="btn btn-google btn-user w-100 mb-2"
                       >
-                        <i className="fab fa-google fa-fw"></i>&nbsp;Login with
-                        Google
+                        <i className="fab fa-google fa-fw"></i>&nbsp;구글 아이디로 로그인
                       </a>
                       <a
                         href="/"
                         className="btn btn-naver btn-user w-100 mb-2"
                       >
-                        <i className="fa-solid fa-n"></i>&nbsp;Login with Naver
+                        <i className="fa-solid fa-n"></i>&nbsp;네이버 아이디로 로그인
                       </a>
                       <a
                         href="/"
                         className="btn btn-kakao btn-user w-100 mb-3"
                       >
-                        <i className="fa-solid fa-k"></i>&nbsp;Login with Kakao
+                        <i className="fa-solid fa-k"></i>&nbsp;카카오 아이디로 로그인
                       </a>
                     </form>
                     <hr />

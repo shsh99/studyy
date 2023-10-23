@@ -16,6 +16,7 @@ import AddEmpNop from "./pages/emp-nop/AddEmpNop";
 import DeptNop from "./pages/dept-nop/DeptNop";
 import EmpNop from './pages/emp-nop/EmpNop';
 import FooterCom from "./components/common/FooterCom";
+import QnaList from "./pages/qna/QnaList";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
             프론트 - EmpNop.tsx (상세조회 + 삭제버튼 코딩)
             벡엔드 - 서비스/컨트롤러 삭제함수
          */}
-
+          {/* qna */}
+          <Route path="/qna" element={<QnaList />} />
           {/* NotFound */}
           <Route path="*" element={<NotFound />} />
         </Routes>
