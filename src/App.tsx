@@ -24,8 +24,8 @@ function App() {
       <HeaderCom />
 
       {/* <!-- 구분 막대 시작 --> */}
-      <div className="gutter text-center text-muted fade-in-box">
-        <div>건강한 몸을 만들기 위한 Body profile 사이트에 오신 것을 환영합니다.</div>
+      <div className="g건강한 몸을 만들기 위한 Body profile 사이트에 오신 것을 환영합니다.utter text-center text-muted fade-in-box">
+        <div></div>
       </div>
       {/* <!-- 구분 막대 끝 --> */}
 
